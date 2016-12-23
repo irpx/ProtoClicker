@@ -10,6 +10,9 @@
             update: this.update,
             render: this.render
         });
+
+        Globals.game = this.game;
+        Globals.test();
     }
 
     preload()

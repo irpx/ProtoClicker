@@ -39,7 +39,8 @@
     <TypeScriptCompile Include="lib\p2.d.ts" />
     <TypeScriptCompile Include="lib\phaser.comments.d.ts" />
     <TypeScriptCompile Include="lib\pixi.comments.d.ts" />
-    <TypeScriptCompile Include="src\ProtoClicker.ts" />
+    <TypeScriptCompile Include="src\globals.ts" />
+    <TypeScriptCompile Include="src\protoclicker.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib\phaser.map" />
