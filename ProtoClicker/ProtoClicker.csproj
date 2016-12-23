@@ -29,8 +29,8 @@
     <Content Include="res\denied.png" />
     <Content Include="res\move.png" />
     <Content Include="res\warning.png" />
-    <Content Include="src\phaser.js" />
-    <Content Include="src\phaser.min.js" />
+    <Content Include="lib\phaser.js" />
+    <Content Include="lib\phaser.min.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -39,9 +39,10 @@
     <TypeScriptCompile Include="lib\p2.d.ts" />
     <TypeScriptCompile Include="lib\phaser.comments.d.ts" />
     <TypeScriptCompile Include="lib\pixi.comments.d.ts" />
+    <TypeScriptCompile Include="src\ProtoClicker.ts" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\phaser.map" />
+    <Content Include="lib\phaser.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
