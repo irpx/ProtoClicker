@@ -1,8 +1,7 @@
-﻿class Globals
+﻿class GameStates
 {
-    static game: Phaser.Game;
-    static test()
-    {
-        console.log("The game is " + Globals.game);
-    }
+    static INIT_GAME: string = "Init";
+    static PRELOAD_GAME: string = "PreLoad";
+    static START_GAME: string = "Start";
+    static PLAY_GAME: string = "Play";
 }

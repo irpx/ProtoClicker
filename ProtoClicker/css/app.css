@@ -1,6 +1,9 @@
 ﻿body {
-    font-family: 'Segoe UI', sans-serif;
+    background-color:#000;
     margin:0px;
     padding:0px;
-    background-color:#000;
+    width:100%;
+    height:100%;
 }
+
+canvas {   display : block;   margin : auto;}
